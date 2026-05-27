@@ -17,9 +17,11 @@ namespace Package1
 
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("=========================================================");
-            Console.WriteLine("    EXÉCUTION DU SCÉNARIO DE TEST UNITAIRE (TU-MESS-1)  ");
-            Console.WriteLine("=========================================================");
+            Console.WriteLine("=======================================================================");
+            Console.WriteLine(" FICHETEST ID  : TU-MESS-1                                            ");
+            Console.WriteLine(" NOM DU MODULE : Envoie d'e-mails via SMTP                            ");
+            Console.WriteLine(" AUTEUR        : AUBRY Mathéo | Date : 27/05/2026 | Version : 1.0     ");
+            Console.WriteLine("=======================================================================\n");
             Console.ResetColor();
 
             Thread.Sleep(1500); // Pause de 1.5 seconde pour lire 
